@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>問卷調查</title>
+  </head>
+  <body>
+    <form action="" method="GET">
+      <!--method="POST" 如果是post 在輸入資料送出後不會顯示在網址上-->
+      <input type="file" name="file" />
+      <br />
+      <label for="myname">姓名: </label>
+      <input
+        id="myname"
+        type="text"
+        name="ID"
+        value=""
+        required
+        minlength="2"
+        maxlength="16"
+        placeholder="請輸入真實中文姓名"
+      />
+      <!--"name"會把資料傳到後端存放，而這裡的ID是代表傳到後端的訊息, value = 預設顯示的文字-->
+      <br />
+
+      <input id="male" type="radio" name="gender" value="male" required />
+      <label>男</label>
+      <input id="female" type="radio" name="gender" value="female" />
+      <label>女</label>
+      <!--radio 只能擇一， 是由一樣的name屬性去判斷-->
+
+      <br />
+      <!--換行-->
+
+      <label>職業</label>
+      <select name="occupation" id="occupation" required>
+        <option></option>
+        <option value="student">學生</option>
+        <option value="teacher">老師</option>
+        <option value="engineer">工程師</option>
+        <option value="soldier">軍人</option>
+        <option value="between jobs">待業</option>
+      </select>
+      <br />
+
+      <label for="tele">電話:</label>
+      <input
+        id="tele"
+        type="text"
+        name="telephone number"
+        placeholder="09----"
+      />
+      <br />
+
+      <label for="email">信箱:</label>
+      <input id="emali" type="email" name="email" required value="" />
+
+      <br />
+
+      <label for="age">年齡</label>
+      <input
+        id="age"
+        type="number"
+        name="age"
+        value="18"
+        min="0"
+        max="120"
+        required
+        step="1"
+      />
+      <!--name 回傳到後端的文字提示,  value 預設值 ，-->
+      <br />
+
+      <label for="area">縣市:</label>
+      <input list="arealist" type="text" id="area" name="area" />
+      <datalist id="arealist">
+        <option value="台北">台北</option>
+        <option value="桃園">桃園</option>
+        <option value="台中">台中</option>
+        <option value="台南">台南</option>
+        <option value="高雄">高雄</option>
+        <option value="新竹">新竹</option>
+      </datalist>
+      <!--datalist 跟select 的差別在 datakist使用者可以自行輸入-->
+
+      <br />
+
+      <input type="checkbox" id="checkbox" name="news" value="yes" checked />
+      <!--因為這裡的input不是text所以value的功能是顯示於URL上   如果value沒設定 就不會傳到後端-->
+      <label for="checkbox">是否訂閱電子報</label>
+      <br />
+      0<input type="range" min="0" max="100" name="" value="50" />100
+
+      <hr />
+      <label>意見回饋: </label>
+      <br />
+      <textarea
+        name="suggestion"
+        id="suggestion"
+        cols="20"
+        rows="10"
+      ></textarea>
+
+      <br />
+      <button type="submit">submit</button>
+      <!--button 位置必須在form裡面，不燃沒有任何功能-->
+      <br />
+      登入系統
+      <br />
+      <label for="account">帳號</label>
+      <input type="text" id="account" name="account" required />
+      <br />
+      <label for="password">密碼</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        minlength="6"
+        maxlength="10"
+        required
+      />
+      <button type="submit">login</button>
+    </form>
+  </body>
+</html>
