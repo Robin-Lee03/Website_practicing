@@ -1,0 +1,38 @@
+/* element selector */
+/* h1 {
+  color: cadetblue;
+} */
+
+/* id selector */
+/* #redtext {
+  color: red;
+} */
+
+/* class selector */
+/* .bluetext {
+  color: blue;
+}
+
+.largetext {
+  font-size: 3rem;
+}
+
+p.greentext {
+  color: green;
+} */
+/* 要是p屬性，又有class=greentext才會執行 */
+
+/* grouping selector */
+h1,
+h2 {
+  color: blueviolet;
+}
+
+div.link1 a {
+  color: hotpink;
+}
+
+div.link2 a {
+  color: forestgreen;
+}
+/* a 是一個小標籤，可回index確認 */

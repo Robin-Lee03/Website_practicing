@@ -1,0 +1,23 @@
+table,     /* 選取字串後 按ctrl+/  即可註解 */
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+th,
+td {
+  padding: 0.25rem;
+}
+h1 {
+  color: #a6a8df; /*可去 https://coloors86.netlify.app/ 找到顏色編碼*/
+}
+p {
+  color: rgba(228, 4, 198, 0.6);
+}
+h2 {
+  color: #c8b0ac;
+}
+
+* {
+  color: blanchedalmond;
+}

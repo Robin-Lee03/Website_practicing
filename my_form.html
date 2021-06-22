@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>問卷調查</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <form action="" method="GET">
       <!--method="POST" 如果是post 在輸入資料送出後不會顯示在網址上-->
+      <h1>熊貓問卷調查</h1>
       <input type="file" name="file" />
       <br />
       <label for="myname">姓名: </label>
@@ -83,7 +85,7 @@
         <option value="高雄">高雄</option>
         <option value="新竹">新竹</option>
       </datalist>
-      <!--datalist 跟select 的差別在 datakist使用者可以自行輸入-->
+      <!--datalist 跟select 的差別在 datalist使用者可以自行輸入-->
 
       <br />
 
@@ -102,7 +104,7 @@
         cols="20"
         rows="10"
       ></textarea>
-
+      <p>感謝填寫寶貴意見</p>
       <br />
       <button type="submit">submit</button>
       <!--button 位置必須在form裡面，不燃沒有任何功能-->
