@@ -27,3 +27,17 @@ h2 {
 input[type="text"] {
   color: blue;
 }
+
+/* p::before {
+  content: ">>";
+  color: red;
+} */
+
+h1::after {
+  content: ":";
+  color: #4b7b5d;
+}
+
+p::first-letter {
+  font-size: 2rem;
+}
