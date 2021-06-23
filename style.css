@@ -12,12 +12,18 @@ h1 {
   color: #a6a8df; /*可去 https://coloors86.netlify.app/ 找到顏色編碼*/
 }
 p {
-  color: rgba(228, 4, 198, 0.6);
+  color: black;
 }
 h2 {
   color: #c8b0ac;
 }
 
-* {
+/* * {
   color: blanchedalmond;
+} */
+
+/* attribute selector */
+
+input[type="text"] {
+  color: blue;
 }

@@ -34,6 +34,21 @@
       <!--radio 只能擇一， 是由一樣的name屬性去判斷-->
 
       <br />
+
+      <label for="age">年齡</label>
+      <input
+        id="age"
+        type="number"
+        name="age"
+        value="18"
+        min="0"
+        max="120"
+        required
+        step="1"
+      />
+      <!--name 回傳到後端的文字提示,  value 預設值 ，-->
+
+      <br />
       <!--換行-->
 
       <label>職業</label>
@@ -59,20 +74,6 @@
       <label for="email">信箱:</label>
       <input id="emali" type="email" name="email" required value="" />
 
-      <br />
-
-      <label for="age">年齡</label>
-      <input
-        id="age"
-        type="number"
-        name="age"
-        value="18"
-        min="0"
-        max="120"
-        required
-        step="1"
-      />
-      <!--name 回傳到後端的文字提示,  value 預設值 ，-->
       <br />
 
       <label for="area">縣市:</label>
