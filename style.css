@@ -35,11 +35,51 @@ input[type="text"] {
   color: red;
 } */
 
-h1::after {
+/* h1::after {
   content: ":";
   color: #4b7b5d;
+} */
+
+/* p::first-letter {
+  font-size: 1rem;
+} */
+/* rm=字體大小的倍數 ， 現代網頁通常都以rem為單位設定*/
+
+p {
+  font-size: 16px;
+}
+/* px=pixels  網頁預設為16px  px為絕對單位，即使網頁瀏覽器調整字體大小 仍然不會改變*/
+
+h1 {
+  text-align: center;
+}
+/* 文字至中 */
+
+h2 {
+  text-decoration: underline;
+}
+/* decoration有許多效果，可以多去嘗試不用記 */
+/* 
+p {
+  font-family: "Times New Roman", Times, serif;
+} */
+/* 如果電腦或瀏覽器沒有Times new romance 他就會用 Times 或 serif取代，是一種電腦本身的防禦機制 */
+/* 可去 google fonts 找字體 */
+
+p {
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 600;
+  text-indent: 32px;
+}
+/* font-weight=字體粗度  text-indent = 段落前的留白 大小  */
+
+h1 {
+  background-color: #c8b0ac;
+  color: #2b69a6;
 }
 
-p::first-letter {
-  font-size: 2rem;
-}
+/* body {
+  background-image: url(./IMG/22026752909802_613.jpg);
+  background-size: cover;
+  background-position: center;
+} */
