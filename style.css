@@ -28,6 +28,8 @@ input[type="text"] {
   color: blue;
 }
 
+/* Pseudo element */
+
 /* p::before {
   content: ">>";
   color: red;
