@@ -1,0 +1,19 @@
+h1 {
+  background-color: black;
+  color: white;
+  width: 30vw;
+  height: 30vh;
+  /* 使用 vw 和 vh 的好處是，當瀏覽器放大或縮小時 標籤會跟著放大縮小 */
+}
+
+div.box1 {
+  background: tomato;
+  width: 1000px;
+  height: 600px;
+}
+
+div.box2 {
+  background-color: wheat;
+  width: 50%;
+  height: 50%;
+}

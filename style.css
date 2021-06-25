@@ -76,6 +76,9 @@ p {
 h1 {
   background-color: #c8b0ac;
   color: #2b69a6;
+  margin: 2rem;
+  border: 5px solid blueviolet;
+  /* border = 邊框 */
 }
 
 /* body {
@@ -83,3 +86,27 @@ h1 {
   background-size: cover;
   background-position: center;
 } */
+
+button.try {
+  /* padding-top: 15px; */
+  padding: 2rem;
+}
+
+/* .survey {
+  background-color: teal;
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem, 1rem;
+}
+
+.survey:hover {
+  background-color: cadetblue;
+  color: white;
+} */
+
+a.survey {
+  background-color: aqua;
+  display: block;
+  width: 30vw;
+  height: 30vh;
+}
