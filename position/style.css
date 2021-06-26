@@ -1,0 +1,29 @@
+div.container {
+  width: 500px;
+  height: 2000px;
+  background-color: black;
+}
+
+div.box {
+  width: 200px;
+  height: 200px;
+}
+
+div.box1 {
+  background-color: chartreuse;
+  position: relative;
+  z-index: 5;
+}
+
+div.box2 {
+  background-color: #f8b8de;
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+/* sticky 和 fixed 常用在網頁的目錄 */
+
+div.box3 {
+  background-color: #2b69a6;
+  left: 100px;
+}
