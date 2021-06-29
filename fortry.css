@@ -1,0 +1,38 @@
+div.container {
+  width: 500px;
+  height: 500px;
+  background-color: black;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  position: relative;
+  top: 200px;
+  left: 200px;
+
+  transition: all 0.8s;
+}
+/* 如果沒有transition box會是瞬間改變位置 */
+
+/* div.box:hover {
+  transform: translate(100px, 100px);
+} */
+/* translate = 移動位置 */
+
+/* div.box:hover {
+  transform: rotate(90deg);
+} */
+/* rotate = 旋轉 */
+
+/* div.box:hover {
+  transform: scale(3);
+  
+} */
+/* scale = 放大縮小(如果填2個值 代表長寬的縮放倍率) */
+
+div.box:hover {
+  transform: rotateX(90deg);
+}
+/* rotateX = 以X軸為準去旋轉 */
