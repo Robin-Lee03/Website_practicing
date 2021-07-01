@@ -69,12 +69,13 @@
 div.container {
   border: 3px solid black;
   display: flex;
-  flex-direction: row-reverse;
 }
 
 .box {
-  width: 200px;
-  height: 200px;
+  /* width: 200px; */
+  /* height: 200px; */
+  flex-grow: 1;
+  flex-basis: 150px;
 }
 
 .box1 {
