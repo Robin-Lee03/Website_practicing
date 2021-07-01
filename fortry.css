@@ -1,10 +1,12 @@
-div.container {
+/* div.container {
   width: 500px;
   height: 500px;
   background-color: black;
-}
+  border-radius: 50px;
+} */
+/* border-radius = 圓滑度 */
 
-div.box {
+/* div.box {
   width: 100px;
   height: 100px;
   background-color: orange;
@@ -13,7 +15,7 @@ div.box {
   left: 200px;
 
   transition: all 0.8s;
-}
+} */
 /* 如果沒有transition box會是瞬間改變位置 */
 
 /* div.box:hover {
@@ -32,7 +34,64 @@ div.box {
 } */
 /* scale = 放大縮小(如果填2個值 代表長寬的縮放倍率) */
 
-div.box:hover {
+/* div.box:hover {
   transform: rotateX(90deg);
-}
+  
+} */
 /* rotateX = 以X軸為準去旋轉 */
+
+/* div.box {
+  width: 100px;
+  height: 100px;
+  background-color: burlywood;
+  position: relative;
+  animation-name: cross;
+  animation-duration: 3s;
+
+  animation: cross 2s ease-in forwards;
+} */
+
+/* Animation */
+/* keyframe , animation-name, animation-duration */
+/* @keyframes cross {
+  from {
+    background-color: burlywood;
+    top: 0;
+    left: 0;
+  }
+  to {
+    background-color: crimson;
+    top: 400px;
+    left: 400px;
+  }
+} */
+
+div.container {
+  border: 3px solid black;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.box1 {
+  background-color: coral;
+}
+
+.box2 {
+  background-color: cornflowerblue;
+}
+
+.box3 {
+  background-color: red;
+}
+
+.box4 {
+  background-color: seagreen;
+}
+.box5 {
+  background-color: violet;
+}
