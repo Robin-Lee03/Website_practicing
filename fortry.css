@@ -68,18 +68,28 @@
 
 div.container {
   border: 3px solid black;
+  /* height: 1000px; */
   display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  /* justify-content: flex-end; */
+  /* align-items: center; */
 }
 
 .box {
-  /* width: 200px; */
-  /* height: 200px; */
-  flex-grow: 1;
-  flex-basis: 150px;
+  /* width: 150px; */
+  height: 200px;
+  /* flex-grow: 1;*/
+
+  /* grow shrink basis*/
+  flex: 1 1 200px;
 }
 
 .box1 {
   background-color: coral;
+  /* flex-basis: 150px;  */
+  /* flex-basis = 網頁內最小width值 */
 }
 
 .box2 {
