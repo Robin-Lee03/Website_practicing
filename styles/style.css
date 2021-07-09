@@ -19,4 +19,23 @@ header {
 header h1 {
   color: orange;
 }
+
+header:hover {
+  background-color: plum;
+}
+
+div.link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
 /*# sourceMappingURL=style.css.map */

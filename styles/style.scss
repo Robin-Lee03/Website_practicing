@@ -12,9 +12,18 @@
 5. mixin
 */
 
-header {
-  background-color: paleturquoise;
-  h1 {
-    color: orange;
-  }
+@import "./header";
+
+@mixin flex($direction) {
+  display: flex;
+  flex-direction: column;
+}
+
+div.link {
+  @include flex(colum);
+}
+
+img {
+  width: 500px;
+  height: 500px;
 }

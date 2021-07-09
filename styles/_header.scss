@@ -1,0 +1,9 @@
+header {
+  background-color: paleturquoise;
+  h1 {
+    color: orange;
+  }
+  &:hover {
+    background-color: plum;
+  }
+}
