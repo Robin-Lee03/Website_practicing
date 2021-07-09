@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+1. nested css
+2. variables 
+3. self &
+4. import
+5. mixin
+*/
+
+header {
+  background-color: paleturquoise;
+  h1 {
+    color: orange;
+  }
+}
